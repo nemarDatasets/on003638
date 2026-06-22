@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on003638",
-  "source": "openneuro",
-  "source_id": "ds003638",
+  "pipeline_stage": "validated",
   "title": "EEG: Electrophysiological biomarkers of behavioral dimensions \nfrom cross-species paradigms",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "James F Cavanagh": {},
     "Greg Light": {},
@@ -11,21 +11,67 @@
     "Jonathan Brigman": {},
     "Jared Young": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003638.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003638",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003638",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41398-021-01562-w",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".csv",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".xlsx"
+  ],
+  "description": "This dataset comprises electrophysiological recordings from 57 human participants performing three behavioral tasks designed to identify cross-species biomarkers of behavioral dimensions. The study employs EEG to characterize electrophysiological signatures that may translate across species, with data collected between 2014-2016 and analyzed through 2021. The research aims to establish objective neurophysiological markers relevant to behavioral phenotyping.",
+  "methods_description": "EEG data were collected from 57 human participants performing three different tasks. Trigger signals were encoded as odd binary recombinations and subsequently translated to 0-255 values using custom MATLAB scripts. Data collection occurred in San Diego (2014-2016), with subsequent analysis performed in New Mexico (2015-2021).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "biomarkers"
+    },
+    {
+      "term": "behavioral dimensions"
+    },
+    {
+      "term": "cross-species paradigms"
+    },
+    {
+      "term": "Electrophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
+    }
+  ],
+  "source_hash": "0e867ab3aabf18b43141f55e0b3f70075b6962d893cb11602abf62024fb9536a"
 }
