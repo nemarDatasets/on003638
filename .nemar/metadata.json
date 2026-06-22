@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Electrophysiological biomarkers of behavioral dimensions \nfrom cross-species paradigms",
-  "description": "This dataset comprises electrophysiological recordings from 57 human subjects performing three different behavioral tasks designed to identify cross-species electrophysiological biomarkers of behavioral dimensions. The study employs EEG to characterize neural correlates of behavior using paradigms translatable across species, with data collected in San Diego (2014-2016) and analyzed in New Mexico (2015-2021). The dataset includes trigger information and Matlab processing scripts for signal translation and analysis.",
-  "methods_description": "EEG data were collected from 57 human subjects performing three different tasks. Triggers were encoded as odd binary recombinations and re-translated into 0-255 values using Matlab scripts. Data collection occurred circa 2014-2016.",
+  "description": "This dataset comprises electrophysiological recordings from 57 human subjects performing three different behavioral tasks designed to identify cross-species electrophysiological biomarkers of behavioral dimensions. The study integrates human EEG data with complementary mouse neurophysiology to establish translational biomarkers of behavior, with data collection occurring between 2014-2016 and analysis between 2015-2021.",
+  "methods_description": "EEG data were collected from 57 human subjects performing three different tasks. Trigger signals were encoded as odd binary recombinations and subsequently translated to 0-255 values using custom MATLAB scripts. Data collection was conducted in San Diego, California.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,16 +18,21 @@
       "term": "EEG"
     },
     {
-      "term": "electrophysiology"
+      "term": "Electrophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
     },
     {
-      "term": "behavioral biomarkers"
+      "term": "biomarkers"
     },
     {
-      "term": "cross-species paradigms"
+      "term": "behavioral dimensions"
     },
     {
-      "term": "event-related potentials"
+      "term": "cross-species"
+    },
+    {
+      "term": "translational neuroscience"
     }
   ],
   "related_identifiers": [
