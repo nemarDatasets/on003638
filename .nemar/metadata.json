@@ -1,0 +1,31 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003638",
+  "source": "openneuro",
+  "source_id": "ds003638",
+  "title": "EEG: Electrophysiological biomarkers of behavioral dimensions \nfrom cross-species paradigms",
+  "authors": {
+    "James F Cavanagh": {},
+    "Greg Light": {},
+    "Neal Swerdlow": {},
+    "Jonathan Brigman": {},
+    "Jared Young": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003638.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
