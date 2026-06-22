@@ -1,16 +1,22 @@
 {
-    "Name": "EEG: Electrophysiological biomarkers of behavioral dimensions \nfrom cross-species paradigms",
-    "ReferencesAndLinks": [
-        "https://www.nature.com/articles/s41398-021-01562-w"
-    ],
-    "Authors": [
-        "James F Cavanagh",
-        "Greg Light",
-        "Neal Swerdlow",
-        "Jonathan Brigman",
-        "Jared Young"
-    ],
-    "License": "CC0",
-    "BIDSVersion": "1.1.1",
-    "DatasetDOI": "10.18112/openneuro.ds003638.v1.0.0"
+  "Name": "EEG: Electrophysiological biomarkers of behavioral dimensions \nfrom cross-species paradigms",
+  "ReferencesAndLinks": [
+    "https://www.nature.com/articles/s41398-021-01562-w"
+  ],
+  "Authors": [
+    "James F Cavanagh",
+    "Greg Light",
+    "Neal Swerdlow",
+    "Jonathan Brigman",
+    "Jared Young"
+  ],
+  "License": "CC0",
+  "BIDSVersion": "1.1.1",
+  "DatasetDOI": "10.82901/nemar.on003638",
+  "SourceDatasets": [
+    {
+      "DOI": "10.18112/openneuro.ds003638.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
